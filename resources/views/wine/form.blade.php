@@ -100,7 +100,7 @@
 
 
                     <div class="mb-4">
-                        <label for="description" class="block text-white text-sm font-bold mb-2">Año</label>
+                        <label for="description" class="block text-white text-sm font-bold mb-2">Descripcion</label>
                         <input
                             type="text"
                             name="description"

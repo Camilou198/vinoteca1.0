@@ -47,7 +47,7 @@ Route::group(['middleware' => ['auth', 'verified']],function ()
             Route::get('/', [ShopController::class, 'index'])->name('index');
             Route::post('/add-to_cart', [ShopController::class, 'addToCart'])->name('addToCart');
             Route::post('/increment', [ShopController::class, 'increment'])->name('increment');
-            Route::post('/decrement', [ShopController::class, 'decremnet'])->name('decrement');
+            Route::post('/decrement', [ShopController::class, 'decrement'])->name('decrement');
             Route::post('/remove', [ShopController::class, 'remove'])->name('remove');
     });
 
