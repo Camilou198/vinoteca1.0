@@ -9,7 +9,7 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Wine\CategoryController;
 
 Route::get('/', function () {
-    ray("Holaa desde el archivo web.php");
+    ray("Hola desde el archivo web.php");
     ray(collect([1, 2, 3]));
     return view('welcome');
 });
